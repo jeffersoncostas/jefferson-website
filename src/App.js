@@ -1,7 +1,18 @@
 import React from 'react';
+import styled from 'styled-components';
+import { GlobalStyle } from './styled';
 
-function App() {
-  return <div></div>;
-}
+const Container = styled.div`
+    background: red;
+`;
+
+const App = () => {
+    return (
+        <>
+            <GlobalStyle />
+            <Container> Jefferson website =D </Container>
+        </>
+    );
+};
 
 export default App;
